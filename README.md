@@ -1,7 +1,7 @@
 # İK Otomasyon (N Katmanlı Mimari)
 
 **İK Otomasyon**, bir kurumun İnsan Kaynakları süreçlerini (personel, departman, izin, performans, maaş, raporlama vb.) daha düzenli ve sürdürülebilir şekilde yönetmek amacıyla geliştirilmiş **C# WinForms** tabanlı bir masaüstü uygulamasıdır. Proje **N Katmanlı (Entities / DAL / BLL / UI)** mimari ile kurgulanmıştır. :contentReference[oaicite:1]{index=1}
-
+yotube videosu / https://youtu.be/tYWtK0lMZyc?si=QuWY1eNXkFyjPTLc
 ---
 
 ## İçindekiler
