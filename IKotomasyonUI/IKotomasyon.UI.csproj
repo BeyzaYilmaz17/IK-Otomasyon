@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62C13D65-AF65-426B-B9EE-0C40B2829B47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IKotomasyon.UI</RootNamespace>
+    <AssemblyName>IKotomasyon.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DepartmanYönetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmanYönetimi.Designer.cs">
+      <DependentUpon>DepartmanYönetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Duyuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Duyuru.Designer.cs">
+      <DependentUpon>Duyuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuyuruPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuyuruPersonel.Designer.cs">
+      <DependentUpon>DuyuruPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IKform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IKform.Designer.cs">
+      <DependentUpon>IKform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maasEkranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maasEkranı.Designer.cs">
+      <DependentUpon>maasEkranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Performans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Performans.Designer.cs">
+      <DependentUpon>Performans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformansIK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformansIK.Designer.cs">
+      <DependentUpon>PerformansIK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelEkle.Designer.cs">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personelform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personelform.Designer.cs">
+      <DependentUpon>personelform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelListe.Designer.cs">
+      <DependentUpon>PersonelListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\kaynakDosyası.cs" />
+    <Compile Include="Rapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapor.Designer.cs">
+      <DependentUpon>Rapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yoneticiform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yoneticiform.Designer.cs">
+      <DependentUpon>Yoneticiform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiIzinform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöneticiIzinform.Designer.cs">
+      <DependentUpon>YöneticiIzinform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İzinTalep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İzinTalep.Designer.cs">
+      <DependentUpon>İzinTalep.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DepartmanYönetimi.resx">
+      <DependentUpon>DepartmanYönetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duyuru.resx">
+      <DependentUpon>Duyuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruPersonel.resx">
+      <DependentUpon>DuyuruPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IKform.resx">
+      <DependentUpon>IKform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maasEkranı.resx">
+      <DependentUpon>maasEkranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Performans.resx">
+      <DependentUpon>Performans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformansIK.resx">
+      <DependentUpon>PerformansIK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelEkle.resx">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personelform.resx">
+      <DependentUpon>personelform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelListe.resx">
+      <DependentUpon>PersonelListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rapor.resx">
+      <DependentUpon>Rapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yoneticiform.resx">
+      <DependentUpon>Yoneticiform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YöneticiIzinform.resx">
+      <DependentUpon>YöneticiIzinform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İzinTalep.resx">
+      <DependentUpon>İzinTalep.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Görsel 2025-12-06 saat 14.08.55_b07fc895.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %2817%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sack-dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\megaphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IKotomasyonBLL\IKotomasyon.BLL.csproj">
+      <Project>{2b0212a8-c58a-4eb6-af8b-5a13ad804c17}</Project>
+      <Name>IKotomasyon.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IKotomasyonEntities\IKotomasyon.Entities.csproj">
+      <Project>{5e57b79e-0070-4d84-b388-55ba66ff9e3c}</Project>
+      <Name>IKotomasyon.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-marketing-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-job-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-job-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-account-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check-file-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compensation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-performance-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-flow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_10809715.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-management.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IKotomasyon.Entities
+{
+   public class MaasListeDto
+    {
+        public int Id { get; set; }
+        public int PersonelId { get; set; }
+
+        public string PersonelAdSoyad { get; set; }
+        public string DepartmanAd { get; set; }
+
+        public int Ay { get; set; }
+        public int Yil { get; set; }
+
+        public decimal Brut_maas { get; set; }
+        public decimal Zam_orani { get; set; }
+        public string Zam_turu { get; set; }
+
+        public DateTime OlusturmaTarihi { get; set; }
+    }
+}

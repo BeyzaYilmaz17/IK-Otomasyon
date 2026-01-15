@@ -1,0 +1,8 @@
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\bin\Debug\IKotomasyon.Entities.dll
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\bin\Debug\IKotomasyon.Entities.pdb
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.dll
+C:\Users\LENOVO\source\repos\IKotomasyon\IKotomasyonEntities\obj\Debug\IKotomasyon.Entities.pdb
